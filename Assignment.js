@@ -27,9 +27,13 @@ let footer= document.getElementsByClassName("footer")[0]
 footer.innerHTML = "<b>Emaill </b> majdjeduhe3@gmjsd.comjdw"
 
 
-let amazonLink= document.getElementsByClassName("buyProduct")
+let amazonLink= document.getElementsByClassName("buyProduct") /* can loop* returns an object*/
 
 
 
-amazonLink.style.backgroundColor = "red"
+for (el of amazonLink){el.classList.add("amazonClass")}
+
+
+
+
 
